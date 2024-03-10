@@ -1,30 +1,51 @@
-import Container from "@/app/_components/container";
-import { HeroPost } from "@/app/_components/hero-post";
-import { Intro } from "@/app/_components/intro";
-import { MoreStories } from "@/app/_components/more-stories";
-import { getAllPosts } from "../lib/api";
+import { getAllPosts } from '@/lib/api';
 
-export default function Index() {
+export default function Main() {
   const allPosts = getAllPosts();
 
-  const heroPost = allPosts[0];
-
-  const morePosts = allPosts.slice(1);
-
   return (
-    <main>
-      <Container>
-        <Intro />
-        <HeroPost
-          title={heroPost.title}
-          coverImage={heroPost.coverImage}
-          date={heroPost.date}
-          author={heroPost.author}
-          slug={heroPost.slug}
-          excerpt={heroPost.excerpt}
-        />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-      </Container>
+    <main className="min-h-screen flex flex-col">
+      <section className="flex flex-col items-start justify-center w-full h-screen p-4 md:p-8">
+        <h1 className="text-4xl md:text-6xl font-bold text-gray-900  mb-4">
+          Decoding Disney
+        </h1>
+        <h2 className="text-lg md:text-xl text-gray-700">
+          Join{' '}
+          <a className="underline" href="/about">
+            me
+          </a>{' '}
+          as I share <strong>tips</strong>,<strong>tricks</strong>, and{' '}
+          <strong>insights</strong> to help you make the most of your Disney
+          vacations. Together, we'll <em className="italic">decode</em> the
+          secrets of Disney World and create{' '}
+          <em className="font-semibold">magical experiences</em> for everyone.
+        </h2>
+        <div className="flex justify-end items-center mt-32">
+          <h3 className="text-lg md:text-xl font-bold text-gray-700  mr-4">
+            Latest articles this way &#128071;
+          </h3>
+        </div>
+      </section>
+
+      <section className="flex flex-col items-start text-left w-full h-[40vh] p-4 md:p-8">
+        <h3 className="text-lg md:text-xl font-bold mb-4 text-gray-900 ">
+          Latest Articles
+        </h3>
+        <ul className="flex flex-col space-y-4 w-full">
+          <ul className="flex flex-col space-y-4 w-full">
+            {allPosts.map((post) => (
+              <li>
+                <a
+                  href={`/posts/${post.slug}`}
+                  className="text-md md:text-lg font-semibold text-gray-600 hover:text-blue-900 transition-colors"
+                >
+                  {post.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </ul>
+      </section>
     </main>
   );
 }

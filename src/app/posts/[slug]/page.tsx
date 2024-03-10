@@ -1,13 +1,12 @@
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "../../../lib/api";
-import { CMS_NAME } from "../../../lib/constants";
-import markdownToHtml from "../../../lib/markdownToHtml";
-import Alert from "../../_components/alert";
-import Container from "../../_components/container";
-import Header from "../../_components/header";
-import { PostBody } from "../../_components/post-body";
-import { PostHeader } from "../../_components/post-header";
+import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { getAllPosts, getPostBySlug } from '../../../lib/api';
+import { CMS_NAME } from '../../../lib/constants';
+import markdownToHtml from '../../../lib/markdownToHtml';
+import Container from '../../_components/container';
+import Header from '../../_components/header';
+import { PostBody } from '../../_components/post-body';
+import { PostHeader } from '../../_components/post-header';
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -16,11 +15,10 @@ export default async function Post({ params }: Params) {
     return notFound();
   }
 
-  const content = await markdownToHtml(post.content || "");
+  const content = await markdownToHtml(post.content || '');
 
   return (
     <main>
-      <Alert preview={post.preview} />
       <Container>
         <Header />
         <article className="mb-32">
