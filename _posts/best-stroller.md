@@ -1,13 +1,12 @@
 ---
 title: 'Best Travel Strollers for Disney World in 2024'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: '/assets/blog/best-stroller/cover.jpg'
 date: '2024-03-10'
 author:
   name: Tytus Planck
-  picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/best-stroller/cover.jpg'
 ---
 
 ## A little about strollers in general
