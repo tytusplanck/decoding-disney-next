@@ -7,14 +7,10 @@ export default function Main() {
     <main className="min-h-screen flex flex-col">
       <section className="flex flex-col items-start justify-center w-full h-screen p-4 md:p-8">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900  mb-4">
-          Decoding Disney
+          Decoding Disney.
         </h1>
         <h2 className="text-lg md:text-xl text-gray-700">
-          Join{' '}
-          <a className="underline" href="/about">
-            me
-          </a>{' '}
-          as I share <strong>tips</strong>,<strong>tricks</strong>, and{' '}
+          Join me as I share <strong>tips</strong>,<strong>tricks</strong>, and{' '}
           <strong>insights</strong> to help you make the most of your Disney
           vacations. Together, we'll <em className="italic">decode</em> the
           secrets of Disney World and create{' '}
