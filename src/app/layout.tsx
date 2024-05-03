@@ -2,6 +2,8 @@ import Footer from '@/app/_components/footer';
 import { HOME_OG_IMAGE_URL } from '@/lib/constants';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 
 import './globals.css';
 
@@ -58,6 +60,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="min-h-screen">{children}</div>
         <Footer />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
