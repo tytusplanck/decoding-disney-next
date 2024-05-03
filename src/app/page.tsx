@@ -25,7 +25,7 @@ export default function Main() {
 
       <section className="flex flex-col items-start text-left w-full h-[40vh] p-4 md:p-8">
         <h3 className="text-lg md:text-xl font-bold mb-4 text-gray-900 ">
-          Latest Articles
+          Articles
         </h3>
         <ul className="flex flex-col space-y-4 w-full">
           <ul className="flex flex-col space-y-4 w-full">
