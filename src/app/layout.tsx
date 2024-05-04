@@ -1,5 +1,4 @@
 import Footer from '@/app/_components/footer';
-import { HOME_OG_IMAGE_URL } from '@/lib/constants';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
   title: `Decoding Disney`,
   description: `A blog decoding all the mysteries around Disney Parks`,
   openGraph: {
-    images: [HOME_OG_IMAGE_URL],
+    images: [],
   },
 };
 
