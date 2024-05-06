@@ -30,7 +30,7 @@ Integrating Disney Genie+ with the Child Swap system can further streamline your
 ### Optimization Tips
 
 1. **Plan Ahead:** Use the Disney app to keep track of ride times and plan your Child Swap around expected peak times.
-2. **Communicate:** Keep your group informed of who rides next and who stays, making switches seamless.
+2. **Time It Right:** Try to time snack or nap time with your Child Swapped rides to keep the kiddos happy.
 3. **Combine Resources:** Pair Genie+ selections with your Child Swap to minimize downtime and maximize ride time.
 
 In conclusion, whether you're a repeat Disney visitor or planning your first trip with little ones, consider the Child Swap system as your secret tool for an efficient and enjoyable adventure. It’s not just about seeing the magic—it’s about experiencing it smartly and seamlessly.
