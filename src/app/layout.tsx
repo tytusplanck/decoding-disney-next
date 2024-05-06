@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   openGraph: {
     images: [],
   },
+  verification: {
+    google: 'google',
+    yandex: 'yandex',
+    yahoo: 'yahoo',
+  },
 };
 
 export default function RootLayout({

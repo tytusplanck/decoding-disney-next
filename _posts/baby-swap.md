@@ -2,7 +2,7 @@
 title: 'Maximizing Fun at Disney Parks: A Look at the Child Swap System'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/blog/baby-swap/cover.jpg'
-date: '2024-03-10'
+date: '2024-02-13'
 author:
   name: Tytus Planck
 ogImage:
