@@ -10,7 +10,7 @@ export default function Main() {
           Decoding Disney.
         </h1>
         <h2 className="text-lg md:text-xl text-gray-700">
-          Join me as I share <strong>tips</strong>,<strong>tricks</strong>, and{' '}
+          Join me as I share <strong>tips</strong>, <strong>tricks</strong>, and{' '}
           <strong>insights</strong> to help you make the most of your Disney
           vacations. Together, we'll <em className="italic">decode</em> the
           secrets of Disney World and create{' '}

@@ -9,13 +9,11 @@ ogImage:
   url: '/assets/blog/baby-swap/cover.jpg'
 ---
 
-## Harnessing the Child Swap System at Disney Parks: A Parent's Guide to Smarter Queues
-
 When visiting Disney parks, balancing the thrill of rides with family needs can be a challenging feat, especially with young children in tow. Enter the Child Swap (sometimes called Rider Switch) system—an incredibly efficient solution for families wanting to enjoy the more adventurous attractions without the long waits.
 
 ### What is Child Swap?
 
-Child Swap allows groups with young children to enjoy rides without everyone having to queue multiple times. Here’s how it works: if a child cannot or does not want to go on a ride, one adult can wait with the child while the rest of the group rides. Once they're done, the waiting adult can go on the ride without queuing again, usually via the Lightning Lane, and often, they can bring another person along for the ride. This system not only saves time but also ensures that no one misses out on the fun.
+Child Swap allows groups with young children to enjoy rides without everyone having to queue multiple times. Here’s how it works: if a child cannot or does not want to go on a ride, one adult can wait with the child while the rest of the group rides. Once the first group is finished with the ride, the person waiting with the child can ride and is allowed to take one additional person to avoid riding alone. This system not only saves time but also ensures that no one misses out on the fun.
 
 ### Personal Experience with a Twist of Efficiency
 
