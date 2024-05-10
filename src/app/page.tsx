@@ -16,31 +16,26 @@ export default function Main() {
           secrets of Disney World and create{' '}
           <em className="font-semibold">magical experiences</em> for everyone.
         </h2>
-        <div className="flex justify-end items-center mt-32">
-          <h3 className="text-lg md:text-xl font-bold text-gray-700  mr-4">
-            Latest articles this way &#128071;
-          </h3>
-        </div>
-      </section>
 
-      <section className="flex flex-col items-start text-left w-full h-[40vh] p-4 md:p-8">
-        <h3 className="text-lg md:text-xl font-bold mb-4 text-gray-900 ">
-          Articles
-        </h3>
-        <ul className="flex flex-col space-y-4 w-full">
+        <div className="flex flex-col items-start text-left w-full mt-16">
+          <h3 className="text-lg md:text-xl font-bold mb-4 text-gray-900 ">
+            Latest articles &#128071;
+          </h3>
           <ul className="flex flex-col space-y-4 w-full">
-            {allPosts.map((post) => (
-              <li>
-                <a
-                  href={`/posts/${post.slug}`}
-                  className="text-md md:text-lg font-semibold text-gray-600 hover:text-blue-900 transition-colors"
-                >
-                  {post.title}
-                </a>
-              </li>
-            ))}
+            <ul className="flex flex-col space-y-4 w-full">
+              {allPosts.map((post) => (
+                <li>
+                  <a
+                    href={`/posts/${post.slug}`}
+                    className="text-md md:text-lg font-semibold text-gray-600 hover:text-blue-900 transition-colors"
+                  >
+                    {post.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </ul>
-        </ul>
+        </div>
       </section>
     </main>
   );
