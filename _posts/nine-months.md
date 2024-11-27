@@ -1,6 +1,6 @@
 ---
 title: 'Is it worth it to take my 9 month old to Disney World?'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Explore the pros and cons of taking a 9-month-old to Disney World, from free admission and family memories to practical challenges like baby care and parent exhaustion. Learn from personal experience how to decide if a Disney trip with an infant is right for your family.'
 coverImage: '/assets/blog/nine-months/cover.jpg'
 date: '2024-10-15'
 author:

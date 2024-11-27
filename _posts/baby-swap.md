@@ -1,10 +1,10 @@
 ---
 title: 'Maximizing Fun at Disney Parks: A Look at the Child Swap System'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: "Learn how Disney's Child Swap (Rider Switch) system helps families with young children maximize their park experience. Discover how to efficiently use this system to reduce wait times, ensure everyone enjoys attractions, and combine it with Genie+ for the ultimate park optimization strategy."
 coverImage: '/assets/blog/baby-swap/cover.jpg'
 date: '2024-02-13'
 author:
-  name: Tytus Planck
+  name: 'Tytus Planck'
 ogImage:
   url: '/assets/blog/baby-swap/cover.jpg'
 ---

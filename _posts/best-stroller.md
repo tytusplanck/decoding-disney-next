@@ -1,6 +1,6 @@
 ---
 title: 'Best Travel Strollers for Disney World in 2024'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Discover the top travel strollers for Disney World in 2024, including the sustainable Bombi Bēbee Traveler, lightweight Summer Infant 3D Lite, and all-terrain Baby Jogger City Mini GT2. Compare key features like foldability, storage space, and maneuverability to find the perfect stroller for your magical Disney adventure.'
 coverImage: '/assets/blog/best-stroller/cover.jpg'
 date: '2024-03-10'
 author:
