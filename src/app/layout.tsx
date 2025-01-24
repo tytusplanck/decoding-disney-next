@@ -9,10 +9,28 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: `Decoding Disney`,
-  description: `A blog decoding all the mysteries around Disney Parks`,
+  metadataBase: new URL('https://decodingdisney.com'),
+  title: {
+    default: 'Decoding Disney',
+    template: '%s | Decoding Disney',
+  },
+  description:
+    'Your ultimate guide to Disney parks, with tips, reviews, and insider knowledge.',
   openGraph: {
-    images: [],
+    type: 'website',
+    siteName: 'Decoding Disney',
+    images: [
+      {
+        url: '/images/default-og.png',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
   verification: {
     google: 'google',
