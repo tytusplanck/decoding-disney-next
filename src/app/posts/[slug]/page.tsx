@@ -49,9 +49,18 @@ export function generateMetadata({ params }: Params): Metadata {
   const title = `${post.title} | Decoding Disney`;
 
   return {
+    title,
+    description: post.excerpt,
     openGraph: {
       title,
-      images: [post.ogImage.url],
+      description: post.excerpt,
+      type: 'article',
+      images: [
+        {
+          url: post.coverImage,
+        },
+      ],
+      publishedTime: post.date,
     },
   };
 }
