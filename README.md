@@ -1,6 +1,6 @@
 # Decoding Disney
 
-An Astro-powered static blog for Disney parks tips, rebuilt with content collections and Tailwind CSS.
+An Astro-powered static blog for Disney parks tips.
 
 ## Getting Started
 
